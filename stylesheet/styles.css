@@ -14,3 +14,24 @@ body{
     width: 600px;
     height: auto;
 }
+
+#sign-up-container {
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: auto;
+    height: 250px;
+    background-color: lightgray;
+}
+
+.header-text {
+    font-size: 20px;
+    text-align: justify;
+    padding: 5px;
+    margin-left: 25px;
+    margin-right: 40px;
+}
