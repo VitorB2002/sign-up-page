@@ -42,39 +42,39 @@
                         Sign Up
                     </h2>
     
-                    <form>
+                    <form id="sign-up-form">
                         
                         <div class="form-column">
                             <label for="first-name">FIRST NAME</label>
                             <br>
-                            <input type="text" name="first-name">
+                            <input type="text" name="first-name" pattern="[a-zA-Z]+" required>
                             <br>
     
                             <label for="email">EMAIL</label>
                             <br>
-                            <input type="email" name="email">
+                            <input type="email" name="email" required>
                             <br>
     
                             <label for="password">PASSWORD</label>
                             <br>
-                            <input type="password" name="password">
+                            <input type="password" name="password" required>
                             <br>
                         </div>
     
                         <div class="form-column">
                             <label for="last-name">LAST NAME</label>
                             <br>
-                            <input type="text" name="last-name">
+                            <input type="text" name="last-name" pattern="[a-zA-Z]+"required>
                             <br>
     
                             <label for="phone-number">PHONE NUMBER</label>
                             <br>
-                            <input type="tel" name="phone-number">
+                            <input type="tel" name="phone-number" required>
                             <br>
     
                             <label for="confirm-password">CONFIRM PASSWORD</label>
                             <br>
-                            <input type="password" name="confirm-password">
+                            <input type="password" name="confirm-password" required>
                             <br>
                         </div>
                         
@@ -83,7 +83,10 @@
                 </main>
     
                 <footer>
-                    <button id="submit-button">
+
+                    <b>ATTENTION: All items are required</b>
+
+                    <button id="submit-button" type="submit" form="sign-up-form">
                         Create Account
                     </button>
     
