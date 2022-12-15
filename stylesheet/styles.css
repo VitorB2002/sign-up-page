@@ -5,18 +5,31 @@
     /*border: 1px solid red;*/
 }
 
-body{
+#main-container{
     display: flex;
-    width: auto;
-    height: auto;
+    width: 100vw;
+    height: 100vh;
+}
+
+#img-container {
+    height: 805px;
 }
 
 #flowers {
     width: auto;
-    height: 900px;
+    height: 805px;
+}
+
+#logo {
+    position: relative;
+    bottom: 700px;
+    opacity: 10%;
+    height: 200px;
+    background-color: blue;
 }
 
 #sign-up-container {
+    height: auto;
     flex-direction: column;
     background-color: lightgray;
 }
@@ -79,7 +92,7 @@ input {
 
 footer {
     margin-left: 30px;
-    height: 300px;
+    height: 200px;
 }
 
 #submit-button {
